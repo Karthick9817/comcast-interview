@@ -1,0 +1,7 @@
+SELECT CONCAT(first_name, ' ', last_name) as employee_name from Employee JOIN Devices ON Devices.employee_id != Employee.id;
+
+SELECT CONCAT(first_name, ' ', last_name) as employee_name from Employee where id not in (select employee_id from Devices);
+
+
+
+

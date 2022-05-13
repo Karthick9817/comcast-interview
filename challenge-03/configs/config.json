@@ -1,0 +1,16 @@
+{
+  "DEV": {
+    "host": "127.0.0.1",
+    "port": "5467",
+    "dbname": "dbname2",
+    "user": "user2",
+    "password": "password2"
+  },
+  "PROD": {
+    "host": "127.10.10.10",
+    "port": "1234",
+    "dbname": "dbname1",
+    "user": "user1",
+    "password": "password1"
+  }
+}
